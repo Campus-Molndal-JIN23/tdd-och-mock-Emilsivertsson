@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/WeatherServiceTest.java" afterDir="false" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="started tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="18e3d513-3e08-470c-b906-881f28cf0677" />
+        <option name="url" value="https://github.com/Campus-Molndal-JIN23/tdd-och-mock-Emilsivertsson.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -179,11 +189,22 @@
       <updated>1685948288122</updated>
       <workItem from="1685948290217" duration="603000" />
       <workItem from="1685952248547" duration="1403000" />
-      <workItem from="1685960134378" duration="2831000" />
+      <workItem from="1685960134378" duration="3218000" />
     </task>
+    <task id="LOCAL−00001" summary="started tests">
+      <created>1685963229399</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1685963229399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="started tests" />
   </component>
 </project>

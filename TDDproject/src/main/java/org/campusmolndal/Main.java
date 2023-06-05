@@ -14,18 +14,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String apiKey = "your_api_key_here";
-        WeatherService weatherService = new WeatherService(apiKey);
-        String city = "Gothenburg";
-        try {
-            String weatherData = weatherService.getWeatherInformation(city);
-            double temperature = weatherService.getTemperature(weatherData);
-            String description = weatherService.getWeatherDescription(weatherData);
-            System.out.println("The current temperature in " + city + " is " + temperature + "°C.");
-            System.out.println("The weather is described as: " + description + ".");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-}
 
+    }
+
+}

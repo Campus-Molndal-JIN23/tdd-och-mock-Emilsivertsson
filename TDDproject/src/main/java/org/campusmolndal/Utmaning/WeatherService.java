@@ -28,7 +28,8 @@ public class WeatherService {
                 response.append(scanner.nextLine());
             }
             scanner.close();
-            return response.toString();
+            return String.valueOf(City.fromJson(response.toString()));
+
         } else {
             throw new IOException("Invalid city");
         }

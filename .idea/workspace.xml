@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="rewitten tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/WeatherServiceTest.java" beforeDir="false" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="rewitten WeatherService and commented code">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.md" beforeDir="false" afterPath="$PROJECT_DIR$/group.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherServiceTest">
+  <component name="RunManager">
     <configuration name="CityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -193,7 +189,7 @@
       <workItem from="1685948290217" duration="603000" />
       <workItem from="1685952248547" duration="1403000" />
       <workItem from="1685960134378" duration="3218000" />
-      <workItem from="1685964045693" duration="4212000" />
+      <workItem from="1685964045693" duration="5307000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -225,7 +221,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1685967263465</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="rewitten WeatherService and commented code">
+      <created>1685968284835</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1685968284835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started tests" />
     <MESSAGE value="rewitten tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewitten tests" />
+    <MESSAGE value="rewitten WeatherService and commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewitten WeatherService and commented code" />
   </component>
 </project>

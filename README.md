@@ -3,7 +3,7 @@
 # TDD och MOCKING
 
 ## Description
-School challange to write test with Mockito and Junit 5.
+School challenge to write test with Mockito and Junit 5.
 Aims to test the city class getters. 
 
 - What was your motivation?
@@ -11,26 +11,24 @@ Aims to test the city class getters.
 - What problem does it solve?
 - What did you learn?
 
-
 ## Installation
 clone the repo and open it in your favorite IDE.  Run the test from the 
 test folder.  The test will run the program and output the results to the console.
-
 
 ## License
 MIT License
 
 ## Packages
 - org.json v20210307
+is used to parse the JSON file from the API.
+
 - org.junit.jupiter.api v5.7.1
+is used to run the tests.
+
 - org.mockito.Mockito v3.9.0
+is used to mock the API.
+
 all packages are included in the pom.xml file.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 
 ## Tests
@@ -39,3 +37,4 @@ the tests covers the getters in the city class, because we were not supposed to 
 - testgetNameNull()
 - getTemp()
 - getWeatherDescription()
+- getWeatherDescriptionNull()

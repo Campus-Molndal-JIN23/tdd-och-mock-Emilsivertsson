@@ -49,7 +49,7 @@ public class City {
      * This method sets the temperature of the city.
      * @param temp the temperature of the city
      */
-    public void setTemp(double temp) {
+    public void setTemp(Double temp) {
         this.temp = temp;
     }
 

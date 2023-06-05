@@ -95,22 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JinTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CityTest.getNameIsNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -143,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityTest.getTempNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +136,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
+      <option name="METHOD_NAME" value="getTempNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityTest.getWeatherDescriptionIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
+      <option name="METHOD_NAME" value="getWeatherDescriptionIsNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CityTest" />
+        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNull" />
+        <item itemvalue="JUnit.CityTest.getTempNull" />
         <item itemvalue="JUnit.CityTest.getNameIsNone" />
         <item itemvalue="JUnit.CityTest.getNameIsNull" />
-        <item itemvalue="JUnit.WeatherServiceTest" />
-        <item itemvalue="JUnit.CityTest.getName" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +194,7 @@
       <workItem from="1685952248547" duration="1403000" />
       <workItem from="1685960134378" duration="3218000" />
       <workItem from="1685964045693" duration="5341000" />
-      <workItem from="1685994531453" duration="3625000" />
+      <workItem from="1685994531453" duration="5629000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -243,7 +244,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1685969392158</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="started README.md and group.md">
+      <created>1685998201905</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1685998201905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,5 +262,10 @@
     <MESSAGE value="rewitten WeatherService and commented code" />
     <MESSAGE value="started README.md and group.md" />
     <option name="LAST_COMMIT_MESSAGE" value="started README.md and group.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd_och_mock_Emilsivertsson$CityTest.ic" NAME="CityTest Coverage Results" MODIFIED="1685998651552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.campusmolndal.Utmaning.*</FILTER>
+    </SUITE>
   </component>
 </project>

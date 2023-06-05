@@ -28,8 +28,8 @@ class CityTest {
     @DisplayName("Tests getName")
     void getName() {
         // Arrange
-        String expectedName = "Göteborg";
-        Mockito.when(cityMock.getName()).thenReturn("Göteborg");
+        String expectedName = "Gothenburg";
+        Mockito.when(cityMock.getName()).thenReturn("Gothenburg");
         // Act
         String actualName = cityMock.getName();
 
@@ -75,6 +75,7 @@ class CityTest {
         assertEquals(expectedTemp, actualTemp);
     }
 
+
     /**
      * This method tests the getWeatherDescription method in the City class.
      * It uses Mockito to mock the getWeatherDescription method.
@@ -85,6 +86,24 @@ class CityTest {
         // Arrange
         String expectedWeatherDescription = "overcast clouds";
         Mockito.when(cityMock.getWeatherDescription()).thenReturn("overcast clouds");
+
+        // Act
+        String actualWeatherDescription = cityMock.getWeatherDescription();
+
+        // Assert
+        assertEquals(expectedWeatherDescription, actualWeatherDescription);
+    }
+
+    /**
+     * This method tests the getWeatherDescription method in the City class.
+     * It uses the mocked getWeatherDescription method to mock a null response.
+     */
+    @Test
+    @DisplayName("Tests getWeatherDescription is null")
+    void getWeatherDescriptionIsNull() {
+        // Arrange
+        String expectedWeatherDescription = null;
+        Mockito.when(cityMock.getWeatherDescription()).thenReturn(null);
 
         // Act
         String actualWeatherDescription = cityMock.getWeatherDescription();

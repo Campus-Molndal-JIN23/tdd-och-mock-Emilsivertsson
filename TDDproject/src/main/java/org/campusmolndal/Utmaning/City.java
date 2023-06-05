@@ -22,7 +22,18 @@ public class City {
      * @return the name of the city
      */
     public String getName() {
+        if (name == null) {
+            return null;
+        }
         return name;
+    }
+
+    /**
+     * This method sets the name of the city.
+     * @param name the name of the city
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
@@ -30,7 +41,16 @@ public class City {
      * @return the temperature of the city
      */
     public double getTemp() {
+
         return temp;
+    }
+
+    /**
+     * This method sets the temperature of the city.
+     * @param temp the temperature of the city
+     */
+    public void setTemp(double temp) {
+        this.temp = temp;
     }
 
     /**
@@ -42,10 +62,18 @@ public class City {
     }
 
     /**
-     * This method returns a string representation of the city.
-     * @return a string representation of the city
+     * This method sets the weather description of the city.
+     * @param WeatherDescription the weather description of the city
      */
-    //from json
+    public void setWeatherDescription(String WeatherDescription) {
+        this.WeatherDescription = WeatherDescription;
+    }
+
+
+    /**
+     * This method returns a string representation of the city.
+     * @return a City object containing the city name, temperature and weather description from the JSON string
+     */
     static City fromJson(String string){
         JSONObject jsonObject = new JSONObject(string);
 

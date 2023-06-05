@@ -39,6 +39,25 @@ class CityTest {
     }
 
     /**
+     * This method tests the getName method in the City class.
+     * It uses the mocked getName method, but not a mocked respons.
+     */
+    @Test
+    @DisplayName("Tests if getName returns null")
+    void getNameIsNull() {
+        // Arrange
+        String expectedName = null;
+        cityMock.setName(null);
+        // Act
+        String actualName = cityMock.getName();
+
+        // Assert
+        assertEquals(expectedName, actualName);
+
+    }
+
+
+    /**
      * This method tests the getTemp method in the City class.
      * It uses Mockito to mock the getTemp method.
      */

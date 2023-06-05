@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="started tests">
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="rewitten tests">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CityTest">
+  <component name="RunManager" selected="JUnit.CityTest.getName">
     <configuration name="CityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -170,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CityTest" />
         <item itemvalue="JUnit.CityTest.getName" />
+        <item itemvalue="JUnit.CityTest" />
         <item itemvalue="JUnit.WeatherServiceTest.getWeatherInformationInvalidCitythrows" />
         <item itemvalue="JUnit.WeatherServiceTest.getWeatherInformationInvalidCity" />
         <item itemvalue="JUnit.WeatherServiceTest.getWrongWeatherDescription" />
@@ -189,7 +190,7 @@
       <workItem from="1685948290217" duration="603000" />
       <workItem from="1685952248547" duration="1403000" />
       <workItem from="1685960134378" duration="3218000" />
-      <workItem from="1685964045693" duration="2364000" />
+      <workItem from="1685964045693" duration="3169000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -209,7 +210,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1685966159232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="rewitten tests">
+      <created>1685966470604</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1685966470604</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +224,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="started tests" />
+    <MESSAGE value="rewitten tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewitten tests" />
   </component>
 </project>

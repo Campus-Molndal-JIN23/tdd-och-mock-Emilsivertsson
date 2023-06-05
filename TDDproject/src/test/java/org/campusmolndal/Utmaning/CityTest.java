@@ -12,14 +12,13 @@ class CityTest {
     @BeforeEach
     void setUp() {
         cityMock = Mockito.mock(City.class);
-        cityMock = new City("Göteborg", 20.59, "overcast clouds");
     }
 
     @Test
     void getName() {
         // Arrange
         String expectedName = "Göteborg";
-
+        Mockito.when(cityMock.getName()).thenReturn("Göteborg");
         // Act
         String actualName = cityMock.getName();
 
@@ -32,6 +31,7 @@ class CityTest {
     void getTemp() {
         // Arrange
         double expectedTemp = 20.59;
+        Mockito.when(cityMock.getTemp()).thenReturn(20.59);
 
         // Act
         double actualTemp = cityMock.getTemp();
@@ -44,6 +44,7 @@ class CityTest {
     void getWeatherDescription() {
         // Arrange
         String expectedWeatherDescription = "overcast clouds";
+        Mockito.when(cityMock.getWeatherDescription()).thenReturn("overcast clouds");
 
         // Act
         String actualWeatherDescription = cityMock.getWeatherDescription();

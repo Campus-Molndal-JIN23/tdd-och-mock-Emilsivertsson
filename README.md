@@ -3,8 +3,8 @@
 # Project name
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+School challange to write test with Mockito and Junit 5.
+Aims to test the
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -21,8 +21,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+clone the repo and open it in your favorite IDE.  Run the test from the 
+test folder.  The test will run the program and output the results to the console.
 
 ## Usage
 

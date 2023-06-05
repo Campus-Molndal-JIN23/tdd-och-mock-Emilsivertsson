@@ -1,7 +1,10 @@
 package org.campusmolndal.Utmaning;
 
 import org.json.JSONObject;
-
+/**
+ * This class represents a city.
+ * It contains the name of the city, the temperature and the weather description.
+ */
 public class City {
     private String name;
     private double temp;
@@ -14,18 +17,34 @@ public class City {
         this.WeatherDescription = WeatherDescription;
     }
 
+    /**
+     * This method returns the name of the city.
+     * @return the name of the city
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * This method returns the temperature of the city.
+     * @return the temperature of the city
+     */
     public double getTemp() {
         return temp;
     }
 
+    /**
+     * This method returns the weather description of the city.
+     * @return the weather description of the city
+     */
     public String getWeatherDescription() {
         return WeatherDescription;
     }
 
+    /**
+     * This method returns a string representation of the city.
+     * @return a string representation of the city
+     */
     //from json
     static City fromJson(String string){
         JSONObject jsonObject = new JSONObject(string);

@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
+
+/**
+ * This class represents a weather service. its is completely bogous of course.
+ * its made up for the sake of the exercise by old exercises and GPT inputs.
+ * It contains one method to get the weather information for a city.
+ */
 public class WeatherService {
 
     private final String apiKey;
@@ -12,6 +18,12 @@ public class WeatherService {
         this.apiKey = apiKey;
     }
 
+    /**
+     * This method returns the weather information for a city.
+     * @param city the city to get the weather information for
+     * @return the weather information for the city to the City class.
+     * @throws IOException if the city is invalid
+     */
     public String getWeatherInformation(String city) throws IOException {
         // Replace with the actual API URL
         String baseUrl = "https://api.example.com/weather";
@@ -33,18 +45,6 @@ public class WeatherService {
         } else {
             throw new IOException("Invalid city");
         }
-    }
-
-    public double getTemperature(String city) {
-        // Parse the JSON response to extract the temperature
-        double temperature = Double.parseDouble(city.substring(city.indexOf("\"temp\":") + 7, city.indexOf(",\"feels_like\"")));
-        return temperature;
-    }
-
-    public String getWeatherDescription(String city) {
-        // Parse the JSON response to extract the weather description
-        String description = city.substring(city.indexOf("\"description\":\"") + 15, city.indexOf("\",\"icon\""));
-        return description;
     }
 
 }

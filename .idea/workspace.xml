@@ -79,7 +79,23 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherServiceTest.getWeatherInformationInvalidCitythrows">
+  <component name="RunManager" selected="JUnit.CityTest.getName">
+    <configuration name="CityTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherServiceTest.getWeatherInformationInvalidCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -107,22 +123,6 @@
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
       <option name="METHOD_NAME" value="getWeatherInformationInvalidCitythrows" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherServiceTest.getWrongTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JinTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
-      <option name="METHOD_NAME" value="getWrongTemperature" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CityTest.getName" />
         <item itemvalue="JUnit.WeatherServiceTest.getWeatherInformationInvalidCitythrows" />
         <item itemvalue="JUnit.WeatherServiceTest.getWeatherInformationInvalidCity" />
         <item itemvalue="JUnit.WeatherServiceTest.getWrongWeatherDescription" />
         <item itemvalue="JUnit.WeatherServiceTest.getWrongWeatherInformation" />
-        <item itemvalue="JUnit.WeatherServiceTest.getWrongTemperature" />
       </list>
     </recent_temporary>
   </component>

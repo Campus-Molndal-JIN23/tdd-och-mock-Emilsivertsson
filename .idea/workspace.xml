@@ -7,6 +7,8 @@
     <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="reworked tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CityTest">
+  <component name="RunManager" selected="JUnit.org.campusmolndal.Utmaning in JinTDD">
     <configuration name="CityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -93,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.getNameIsNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityTest.fromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -103,23 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getNameIsNone" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CityTest.getNameIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JinTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getNameIsNull" />
+      <option name="METHOD_NAME" value="fromJson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.getWeatherDescriptionIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityTest.testFromJsonWithValidJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +137,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getWeatherDescriptionIsNull" />
+      <option name="METHOD_NAME" value="testFromJsonWithValidJson" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.campusmolndal.Utmaning in JinTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.Utmaning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.org.campusmolndal.Utmaning in JinTDD" />
+        <item itemvalue="JUnit.CityTest.testFromJsonWithValidJson" />
+        <item itemvalue="JUnit.CityTest.fromJson" />
         <item itemvalue="JUnit.CityTest" />
         <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNone" />
-        <item itemvalue="JUnit.CityTest.getNameIsNone" />
-        <item itemvalue="JUnit.CityTest.getNameIsNull" />
-        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +195,7 @@
       <workItem from="1685994531453" duration="5735000" />
       <workItem from="1686118058124" duration="3102000" />
       <workItem from="1686121857250" duration="313000" />
+      <workItem from="1686124450311" duration="3975000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>

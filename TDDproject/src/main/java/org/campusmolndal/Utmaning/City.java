@@ -82,14 +82,12 @@ public class City {
      * This method returns a string representation of the city.
      * @return a City object containing the city name, temperature and weather description from the JSON string
      */
-    static City fromJson(String string){
-        JSONObject jsonObject = new JSONObject(string);
-
-        String name = jsonObject.getString("name");
-        double temp = jsonObject.getJSONObject("main").getDouble("temp");
-        String WeatherDescription = jsonObject.getJSONArray("weather").getJSONObject(0).getString("description");
-
-        return new City(name, temp, WeatherDescription);
+    static City fromJson(String json){
+        JSONObject object = new JSONObject(json);
+        City city = new City(object.getString("name"),
+                object.getJSONObject("main").getDouble("temp"),
+                object.getJSONArray("weather").getJSONObject(0).getString("description"));
+        return city;
     }
 
 }

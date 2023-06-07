@@ -46,9 +46,7 @@ class CityTest {
     @DisplayName("Tests if getName returns null, test 2")
     void getNameIsNull() {
         // Arrange
-        String expectedName = null;
         Mockito.when(cityMock.getName()).thenThrow(NullPointerException.class);
-
 
         //act & Assert
         assertThrows(NullPointerException.class, () -> cityMock.getName());

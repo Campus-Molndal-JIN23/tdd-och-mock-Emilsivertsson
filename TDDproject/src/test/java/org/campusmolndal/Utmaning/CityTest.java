@@ -25,7 +25,7 @@ class CityTest {
      * It uses Mockito to mock the getName method.
      */
     @Test
-    @DisplayName("Tests getName")
+    @DisplayName("Tests getName, test 1")
     void getName() {
         // Arrange
         String expectedName = "Gothenburg";
@@ -43,7 +43,7 @@ class CityTest {
      * It uses the this test dont use mock, i used another metod to test the getName method.
      */
     @Test
-    @DisplayName("Tests if getName returns null")
+    @DisplayName("Tests if getName returns null, test 2")
     void getNameIsNull() {
         // Arrange
         String expectedName = null;
@@ -61,7 +61,7 @@ class CityTest {
      * It uses a mock to test the getName method, to see if it returns nothing.
      */
     @Test
-    @DisplayName("Tests if getName returns nothing")
+    @DisplayName("Tests if getName returns nothing, test 3")
     void getNameIsNone() {
         // Arrange
         Mockito.when(cityMock.getName()).thenThrow(IllegalArgumentException.class);
@@ -78,7 +78,7 @@ class CityTest {
      * It uses Mockito to mock the getTemp method.
      */
     @Test
-    @DisplayName("Tests getTemp")
+    @DisplayName("Tests getTemp, test 4")
     void getTemp() {
         // Arrange
         double expectedTemp = 20.59;
@@ -97,7 +97,7 @@ class CityTest {
      * It uses Mockito to mock the getWeatherDescription method.
      */
     @Test
-    @DisplayName("Tests getWeatherDescription should be overcast clouds")
+    @DisplayName("Tests getWeatherDescription should be overcast clouds, test 5")
     void getWeatherDescription() {
         // Arrange
         String expectedWeatherDescription = "overcast clouds";
@@ -115,7 +115,7 @@ class CityTest {
      * It uses the mocked getWeatherDescription method to mock a null response.
      */
     @Test
-    @DisplayName("Tests getWeatherDescription is null")
+    @DisplayName("Tests getWeatherDescription is null, test 6")
     void getWeatherDescriptionIsNull() {
         // Arrange
         Mockito.when(cityMock.getWeatherDescription()).thenThrow(NullPointerException.class);
@@ -129,7 +129,7 @@ class CityTest {
      * It uses the mocked getWeatherDescription method to mock a null response.
      */
     @Test
-    @DisplayName("Tests getWeatherDescription is returns nothing")
+    @DisplayName("Tests getWeatherDescription is returns nothing, test 7")
     void getWeatherDescriptionIsNone() {
         // Arrange
         Mockito.when(cityMock.getWeatherDescription()).thenThrow(IllegalArgumentException.class);

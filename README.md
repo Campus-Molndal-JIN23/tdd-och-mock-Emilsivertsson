@@ -3,13 +3,10 @@
 # TDD och MOCKING
 
 ## Description
-School challenge to write test with Mockito and Junit 5.
-Aims to test the city class getters. 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- School challenge to write test with Mockito and Junit 5.
+- Aims to test the information from a API call via a city class using a mock, because we dont have a actual API.
+- This lets us test our code without having to rely on a API och database, or if in a bigger project lets us try our code without having acess to others code.
+- I have learned to use Mockito and Junit 5 to test my code, and how to use a mock to test my code. 
 
 ## Installation
 clone the repo and open it in your favorite IDE.  Run the test from the 
@@ -33,8 +30,22 @@ all packages are included in the pom.xml file.
 
 ## Tests
 the tests covers the getters in the city class, because we were not supposed to test the API.
-- testgetName()
-- testgetNameNull()
+- testGetName()
+- testGetNameNull()
+- testGetNameisNone()
 - getTemp()
 - getWeatherDescription()
 - getWeatherDescriptionNull()
+- getWeatherDescriptionisNone()
+
+## Test Rapport
+
+| Test ID | Test Description                                     | Expected result            | Actuall result                  | Status |
+|---------|------------------------------------------------------|----------------------------|---------------------------------|--------|
+| 1       | if getName returns a correct city name               | Return correct name        | Correct name was returned       | Passed |
+| 2       | If getName returns a Null statement                  | Throw an Exeption          | Returned a Exeption             | Passed |
+| 3       | if getName returns a empty string                    | Throw an Exeption          | Returned a Exeption             | Passed |
+| 4       | if getTemp returns a correct temperature             | Return correct temperture  | Correct temperture was returned | Passed |
+| 5       | if getWeatherDescription returns correct description | Return correct description | Correct temperture was returned | Passed |
+| 6       | if getWeatherDescription returns a Null statement    | Throw an Exeption          | Returned a Exeption             | Passed |
+| 7       | if getWeatherDescription returns a empty string      | Throw an Exeption          | Returned a Exeption             | Passed |

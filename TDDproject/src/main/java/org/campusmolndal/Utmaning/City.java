@@ -23,7 +23,10 @@ public class City {
      */
     public String getName() {
         if (name == null) {
-            return null;
+            throw new NullPointerException("Name is null");
+        }
+        if(name.isEmpty()){
+            throw new IllegalArgumentException("Name is empty");
         }
         return name;
     }
@@ -41,7 +44,6 @@ public class City {
      * @return the temperature of the city
      */
     public double getTemp() {
-
         return temp;
     }
 
@@ -58,6 +60,12 @@ public class City {
      * @return the weather description of the city
      */
     public String getWeatherDescription() {
+        if(WeatherDescription == null){
+            throw new NullPointerException("WeatherDescription is null");
+        }
+        if(WeatherDescription.isEmpty()){
+            throw new IllegalArgumentException("WeatherDescription is empty");
+        }
         return WeatherDescription;
     }
 

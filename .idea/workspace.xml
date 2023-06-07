@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="started README.md and group.md" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="started README.md and group.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.getTempNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityTest.getWeatherDescriptionIsNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +135,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getTempNull" />
+      <option name="METHOD_NAME" value="getWeatherDescriptionIsNone" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CityTest" />
-        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNull" />
-        <item itemvalue="JUnit.CityTest.getTempNull" />
+        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNone" />
         <item itemvalue="JUnit.CityTest.getNameIsNone" />
         <item itemvalue="JUnit.CityTest.getNameIsNull" />
+        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +193,7 @@
       <workItem from="1685960134378" duration="3218000" />
       <workItem from="1685964045693" duration="5341000" />
       <workItem from="1685994531453" duration="5735000" />
+      <workItem from="1686118058124" duration="868000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>

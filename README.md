@@ -52,6 +52,7 @@ the tests cover the getters in the city class, because we were not supposed to t
 - Test 7 getWeatherDescriptionIsNone() 
 
 ## Test Rapport
+Tests peformed on the 2023-06-07
 
 | Test ID | Test Description                                     | Expected result            | Actual result                    | Status |
 |---------|------------------------------------------------------|----------------------------|----------------------------------|--------|

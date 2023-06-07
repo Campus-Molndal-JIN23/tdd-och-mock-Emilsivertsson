@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="removed demo">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/WeatherServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/CityForcast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/group.md" beforeDir="false" afterPath="$PROJECT_DIR$/group.md" afterDir="false" />
-    </list>
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="removed demo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +206,7 @@
       <workItem from="1686130434930" duration="556000" />
       <workItem from="1686133161722" duration="19000" />
       <workItem from="1686133359522" duration="18000" />
-      <workItem from="1686133492571" duration="8554000" />
+      <workItem from="1686133492571" duration="8665000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -327,7 +316,19 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1686133535694</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="removed demo">
+      <created>1686142730625</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1686142730625</updated>
+    </task>
+    <task id="LOCAL−00020" summary="removed demo">
+      <created>1686142742191</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1686142742191</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

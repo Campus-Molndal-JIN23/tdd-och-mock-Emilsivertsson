@@ -84,10 +84,9 @@ public class City {
      */
     static City fromJson(String json){
         JSONObject object = new JSONObject(json);
-        City city = new City(object.getString("name"),
+        return new City(object.getString("name"),
                 object.getJSONObject("main").getDouble("temp"),
                 object.getJSONArray("weather").getJSONObject(0).getString("description"));
-        return city;
     }
 
 }

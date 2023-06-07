@@ -1,5 +1,7 @@
 package org.campusmolndal;
 
+import org.campusmolndal.Utmaning.CityForcast;
+import org.campusmolndal.Utmaning.WeatherAPI;
 import org.campusmolndal.Utmaning.WeatherService;
 
 import java.io.IOException;
@@ -13,9 +15,10 @@ import java.io.IOException;
  */
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         //You want the truth, Agent Mulder? You’ve come to the right place.
+
     }
 
 }

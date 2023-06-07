@@ -23,7 +23,7 @@ You can then test your code without having to rely on the API or database to be 
 You might also not want to use the API while testing.
 
 ## Installation
-clone the repo and open it in your favorite IDE.  Run the test from the 
+Clone the repo and open it in your favorite IDE.  Run the test from the 
 test folder.  The test will run the program and output the results to the console.
 
 ## License
@@ -52,14 +52,15 @@ the tests cover the getters in the city class, because we were not supposed to t
 - Test 7 getWeatherDescriptionIsNone() 
 
 ## Test Rapport
-Tests peformed on the 2023-06-07
+Tests performed on the 2023-06-07
 
-| Test ID | Test Description                                     | Expected result            | Actual result                    | Status |
-|---------|------------------------------------------------------|----------------------------|----------------------------------|--------|
-| 1       | if getName returns a correct city name               | Return correct name        | Correct name was returned        | Passed |
-| 2       | If getName returns a Null statement                  | Throw an Exception         | Returned a Exception             | Passed |
-| 3       | if getName returns a empty string                    | Throw an Exception         | Returned a Exception             | Passed |
-| 4       | if getTemp returns a correct temperature             | Return correct temperature | Correct temperature was returned | Passed |
-| 5       | if getWeatherDescription returns correct description | Return correct description | Correct temperature was returned | Passed |
-| 6       | if getWeatherDescription returns a Null statement    | Throw an Exception         | Returned a Exception             | Passed |
-| 7       | if getWeatherDescription returns a empty string      | Throw an Exception         | Returned a Exception             | Passed |
+| Test ID | Test Description                                     | Expected result                   | Actual result                    | Status |
+|---------|------------------------------------------------------|-----------------------------------|----------------------------------|--------|
+| 1       | if getName returns a correct city name               | Return "Gothenburg"               | Correct name was returned        | Passed |
+| 2       | If getName returns a Null statement                  | Throw an NullPointerException     | Returned Exception               | Passed |
+| 3       | If getName returns a None statement                  | Throw an IllegalArgumentException | Returned Exception               | Passed |
+| 3       | if getTemp returns a correct temperature             | Return correct temperature        | Correct temperature was returned | Passed |
+| 4       | if getWeatherDescription returns correct description | Return correct description        | Correct temperature was returned | Passed |
+| 5       | if getWeatherDescription returns correct description | return "overcast clouds"          | Correct description was returned | Passed |
+
+

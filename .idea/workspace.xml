@@ -4,21 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="removed demo" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="removed demo">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/WeatherServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/CityForcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/Utmaning/CityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.md" beforeDir="false" afterPath="$PROJECT_DIR$/group.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\emils\Jin23\tdd-och-mock-Emilsivertsson\htmlReport" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,23 +69,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,8 +95,8 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CityTest">
-    <configuration name="CityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WeatherServiceTest">
+    <configuration name="WeatherServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -84,13 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.fromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherServiceTest.getCityNameIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="fromJson" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
+      <option name="METHOD_NAME" value="getCityNameIsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.getWeatherDescriptionIsNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherServiceTest.getCityNameNotNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="getWeatherDescriptionIsNone" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
+      <option name="METHOD_NAME" value="getCityNameNotNone" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityTest.testFromJsonWithValidJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherServiceTest.getCityNameNotNul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +152,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.CityTest" />
-      <option name="METHOD_NAME" value="testFromJsonWithValidJson" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
+      <option name="METHOD_NAME" value="getCityNameNotNul" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.campusmolndal.Utmaning in JinTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherServiceTest.getCityNameNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +168,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.campusmolndal.Utmaning" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Utmaning.WeatherServiceTest" />
+      <option name="METHOD_NAME" value="getCityNameNotNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CityTest" />
-        <item itemvalue="JUnit.org.campusmolndal.Utmaning in JinTDD" />
-        <item itemvalue="JUnit.CityTest.testFromJsonWithValidJson" />
-        <item itemvalue="JUnit.CityTest.fromJson" />
-        <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNone" />
+        <item itemvalue="JUnit.WeatherServiceTest" />
+        <item itemvalue="JUnit.WeatherServiceTest.getCityNameNotNone" />
+        <item itemvalue="JUnit.WeatherServiceTest.getCityNameNotNull" />
+        <item itemvalue="JUnit.WeatherServiceTest.getCityNameNotNul" />
+        <item itemvalue="JUnit.WeatherServiceTest.getCityNameIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +217,7 @@
       <workItem from="1686130434930" duration="556000" />
       <workItem from="1686133161722" duration="19000" />
       <workItem from="1686133359522" duration="18000" />
+      <workItem from="1686133492571" duration="8554000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -297,7 +321,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1686130948288</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="removed demo">
+      <created>1686133535694</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1686133535694</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +344,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tdd_och_mock_Emilsivertsson$CityTest.ic" NAME="CityTest Coverage Results" MODIFIED="1685998651552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.campusmolndal.Utmaning.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tdd_och_mock_Emilsivertsson$WeatherServiceTest.ic" NAME="WeatherServiceTest Coverage Results" MODIFIED="1686142092568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.campusmolndal.Utmaning.*</FILTER>
     </SUITE>
   </component>

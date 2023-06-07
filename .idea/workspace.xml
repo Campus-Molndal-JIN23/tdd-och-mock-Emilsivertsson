@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="reworked tests">
-      <change afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/CityFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/demo/DemoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/demo/StarProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/demo/DemoTestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/demo/package-info.java" beforeDir="false" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="removed demo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <recent name="org.campusmolndal.Utmaning" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.org.campusmolndal.Utmaning in JinTDD">
+  <component name="RunManager" selected="JUnit.CityTest">
     <configuration name="CityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -173,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CityTest" />
         <item itemvalue="JUnit.org.campusmolndal.Utmaning in JinTDD" />
         <item itemvalue="JUnit.CityTest.testFromJsonWithValidJson" />
         <item itemvalue="JUnit.CityTest.fromJson" />
-        <item itemvalue="JUnit.CityTest" />
         <item itemvalue="JUnit.CityTest.getWeatherDescriptionIsNone" />
       </list>
     </recent_temporary>
@@ -197,7 +193,7 @@
       <workItem from="1686118058124" duration="3102000" />
       <workItem from="1686121857250" duration="313000" />
       <workItem from="1686124450311" duration="4469000" />
-      <workItem from="1686130434930" duration="416000" />
+      <workItem from="1686130434930" duration="556000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>
@@ -295,7 +291,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1686128959999</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="removed demo">
+      <created>1686130948288</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1686130948288</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +309,8 @@
     <MESSAGE value="rewitten WeatherService and commented code" />
     <MESSAGE value="started README.md and group.md" />
     <MESSAGE value="reworked tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked tests" />
+    <MESSAGE value="removed demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tdd_och_mock_Emilsivertsson$CityTest.ic" NAME="CityTest Coverage Results" MODIFIED="1685998651552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -8,6 +8,13 @@
 - This lets us test our code without having to rely on a API och database, or if in a bigger project lets us try our code without having acess to others code.
 - I have learned to use Mockito and Junit 5 to test my code, and how to use a mock to test my code. 
 
+## TDD
+Test Driven Development is used to write the test before you acctualy write the code,
+this is to make sure that you write the code to do what you want it to do, and not just write code that works.
+This is a good way to make sure that you dont write code that you dont need, and that you dont write code that does not work.
+
+## Mocking
+Mocking is used to test your code 
 ## Installation
 clone the repo and open it in your favorite IDE.  Run the test from the 
 test folder.  The test will run the program and output the results to the console.

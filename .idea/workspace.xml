@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="reworked tests" />
+    <list default="true" id="b12d7405-4e72-4994-a190-e4e7b188aa26" name="Changes" comment="reworked tests">
+      <change afterPath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/Utmaning/CityFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/demo/DemoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/main/java/org/campusmolndal/demo/StarProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/demo/DemoTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDproject/src/test/java/org/campusmolndal/demo/package-info.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,6 +197,7 @@
       <workItem from="1686118058124" duration="3102000" />
       <workItem from="1686121857250" duration="313000" />
       <workItem from="1686124450311" duration="4469000" />
+      <workItem from="1686130434930" duration="416000" />
     </task>
     <task id="LOCAL−00001" summary="started tests">
       <created>1685963229399</created>

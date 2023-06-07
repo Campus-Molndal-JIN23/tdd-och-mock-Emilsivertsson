@@ -27,16 +27,15 @@ is used to mock the API.
 
 all packages are included in the pom.xml file.
 
-
 ## Tests
 the tests covers the getters in the city class, because we were not supposed to test the API.
-- testGetName() Test 1
-- testGetNameNull() Test 2
-- testGetNameisNone() Test 3
-- getTemp() Test 4
-- getWeatherDescription() Test 5
-- getWeatherDescriptionNull() Test 6
-- getWeatherDescriptionisNone() Test 7
+- Test 1 testGetName() 
+- Test 2 testGetNameNull() 
+- Test 3 testGetNameisNone() 
+- Test 4 getTemp() 
+- Test 5 getWeatherDescription() 
+- Test 6 getWeatherDescriptionNull() 
+- Test 7 getWeatherDescriptionisNone() 
 
 ## Test Rapport
 

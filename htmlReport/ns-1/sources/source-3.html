@@ -1,0 +1,148 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > WeatherService</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.campusmolndal.Utmaning</a>
+</div>
+
+<h1>Coverage Summary for Class: WeatherService (org.campusmolndal.Utmaning)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">WeatherService</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (5/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/7)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.campusmolndal.Utmaning;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;
+&nbsp;/**
+&nbsp; * This class represents a weather service. its is completely bogous of course.
+&nbsp; * its made up for the sake of the exercise by old exercises and GPT inputs.
+&nbsp; * It contains one method to get the weather information for a city.
+&nbsp; */
+&nbsp;public class WeatherService {
+&nbsp;
+&nbsp;    WeatherAPI api;
+&nbsp;
+&nbsp;    static CityForcast cityForcast;
+&nbsp;
+<b class="fc">&nbsp;    public WeatherService(WeatherAPI api, String city) throws IOException {</b>
+<b class="fc">&nbsp;        this.api = api;</b>
+<b class="fc">&nbsp;        getCityForcast(city);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public void getCityForcast(String city) throws IOException {
+<b class="fc">&nbsp;        cityForcast = CityForcast.fromJson(api.getWeatherInformation(city));</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static String getCityName(){
+<b class="fc">&nbsp;        return cityForcast.getName();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static double getCityTemp(){
+<b class="fc">&nbsp;        return cityForcast.getTemp();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public static String getCityWeatherDescription(){
+<b class="fc">&nbsp;        return cityForcast.getWeatherDescription();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-06-07 14:48</div>
+</div>
+</body>
+</html>

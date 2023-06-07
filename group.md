@@ -25,6 +25,7 @@ Med vi ska ju inte testa API:et, utan så jag kan ju inte testa vad för svar de
 Jag frågade marcus igenom och kollade på mina klasskamraters arbete och förstod så tillsist vad som förväntades.
 Jag skrev om testerna igen och testade WeatherService klassen istället.
 Jag "injected" ett Mockat svar i testklassen och testade att metoden returnerade rätt värden utifrån det svaret. 
+Jag har använt ChatGPT för att hjälpa mig med några tester.
 Till sist skrev  jag en testrapport för testerna.
 
 ## Slutsatser
